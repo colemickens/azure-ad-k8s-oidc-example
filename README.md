@@ -20,7 +20,7 @@ SSH to your master node and edit `/etc/kubernetes/manifests/kube-apiserver.yaml`
 
 ```
 {... other flags ...}
---authorization-mode=AlwaysAllow,RBAC
+--authorization-mode=RBAC
 --authorization-rbac-super-user=client
 --oidc-client-id=49c61316-a48b-4e58-81b3-020ab2cab9dc
 --oidc-issuer-url=https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/v2.0

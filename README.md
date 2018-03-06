@@ -1,3 +1,11 @@
+# DEPRECATION NOTICE
+
+Note!
+
+1. I no longer work for Azure.
+2. As far as I know, this is not the right configuration to use with ACS-Engine or AKS!
+3. Please look for upstream docs, or docs on azure.com, or help in #sig-azure in the Kubernetes Slack instead of using this resource.
+
 # Azure Active Directory Kubernetes OIDC Example
 
 ## Overview
